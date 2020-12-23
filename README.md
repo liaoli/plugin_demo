@@ -6,18 +6,22 @@ A new Flutter plugin.
 
 ## Getting Started
 
-本项目为个人学习如何实现和发布一个 Flutter plugin.  
+本项目为个人学习如何实现，发布，使用一个 Flutter plugin 的例子.  
+
 1.创建一个flutter 工程，
-  选择 Flutter Plugin,Android studio 自动创建
-  或者使用命令行创建
-  flutter create --org com.liaoli --template=plugin plugin_demo
-  其中 com.liaoli 是插件包名的一部分，plugin_name 是插件的名称。插件的完整包名为 com.liaoli.plugin_demo
-  
+    
+    选择 Flutter Plugin,Android studio 自动创建
+    
+    或者使用命令行创建
+    flutter create --org com.liaoli --template=plugin plugin_demo
+    其中 com.liaoli 是插件包名的一部分，plugin_name 是插件的名称。插件的完整包名为 com.liaoli.plugin_demo
+      
   
 2.实现插件代码
 
 
 3.发布代码
+    
     这里是上传到 pub.dev 上面
     
     在上传之前使用如下命令检查插件中的一些问题：
